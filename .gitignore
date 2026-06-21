@@ -1,0 +1,28 @@
+# build output
+# ※ docs/ は GitHub Pages 公開用ビルド成果物のためコミット対象（無視しない）
+dist/
+
+# dependencies
+node_modules/
+
+# astro
+.astro/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS / editor
+.DS_Store
+*.local
+.vscode/*
+!.vscode/extensions.json
+
+# design source / scratch (ビルド対象外・参考資料)
+work/

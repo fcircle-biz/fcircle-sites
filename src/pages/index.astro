@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout.astro';
 // デザイン元: work/F-Circle Profile.html を Web標準へ移植したもの。
 //   - レイアウト/配色はインラインスタイルで自己完結（デザイン元に準拠）
 //   - スクロール演出は下部の <script>（data-reveal）で再現
-//   - ※ プレースホルダー（Your Name / メール / 各種リンク）は要差し替え
+//   - ※ お問い合わせフォームURL（forms.example.com）は要差し替え
 // ===============================================================
 
 const title =
@@ -25,7 +25,7 @@ const ogDescription =
       <div style="max-width:960px; margin:0 auto; padding:9px 22px; display:flex; align-items:center; justify-content:space-between; gap:14px;">
         <a href="#top" style="text-decoration:none; display:flex; align-items:center; gap:10px; min-width:0;">
           <span style="font-size:15px; font-weight:700; color:#1c2630; letter-spacing:0.03em; white-space:nowrap;">F-Circle</span>
-          <span style="font-size:11.5px; color:#9097a0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Your Name</span>
+          <span style="font-size:11.5px; color:#9097a0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Satoshi Ichimaru</span>
         </a>
         <nav aria-label="セクション" style="display:flex; align-items:center; gap:16px; flex-wrap:wrap; justify-content:flex-end;">
           <a href="#support" style="text-decoration:none; font-size:12.5px; color:#5a6470;">支援領域</a>
@@ -318,7 +318,7 @@ const ogDescription =
           <div style="display:flex; flex-wrap:wrap; gap:8px 24px; padding:16px 20px; border-bottom:1px solid #eef0f3;">
             <div style="flex:0 0 180px; min-width:140px; font-size:13px; font-weight:700; color:#3c4651; padding-top:4px; display:flex; align-items:center; gap:8px;"><span aria-hidden="true" style="width:7px; height:7px; border:1.5px solid var(--accent); border-radius:50%; flex:0 0 auto;"></span>Languages</div>
             <div style="flex:1 1 320px; display:flex; flex-wrap:wrap; gap:6px;">
-              <span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Java</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">HTML</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">CSS</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">JavaScript</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">VBA</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">VB.NET</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">C#.NET</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Python</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">SAS</span>
+              <span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Java</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">HTML</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">CSS</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">JavaScript</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">React</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Next.js</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">VBA</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">VB.NET</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">C#.NET</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Python</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">SAS</span>
             </div>
           </div>
           <div style="display:flex; flex-wrap:wrap; gap:8px 24px; padding:16px 20px; border-bottom:1px solid #eef0f3;">
@@ -336,7 +336,7 @@ const ogDescription =
           <div style="display:flex; flex-wrap:wrap; gap:8px 24px; padding:16px 20px; border-bottom:1px solid #eef0f3;">
             <div style="flex:0 0 180px; min-width:140px; font-size:13px; font-weight:700; color:#3c4651; padding-top:4px; display:flex; align-items:center; gap:8px;"><span aria-hidden="true" style="width:7px; height:7px; border:1.5px solid var(--accent); border-radius:50%; flex:0 0 auto;"></span>Low-code / Automation</div>
             <div style="flex:1 1 320px; display:flex; flex-wrap:wrap; gap:6px;">
-              <span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Microsoft 365</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Power Platform</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Power Apps</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Power Automate</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Wagby</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">OutSystems</span>
+              <span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Microsoft 365</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Power Platform</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Power Apps</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">Power Automate</span><span style="font-size:13px; color:#2f3842; border:1px solid #d8dce1; border-radius:3px; padding:4px 10px; background:#fafbfc;">OutSystems</span>
             </div>
           </div>
           <div style="display:flex; flex-wrap:wrap; gap:8px 24px; padding:16px 20px; border-bottom:1px solid #eef0f3;">
@@ -370,7 +370,7 @@ const ogDescription =
           <li style="display:flex; gap:11px; align-items:center; padding:15px 18px; border-bottom:1px solid #eef0f3;"><span aria-hidden="true" style="width:24px; height:24px; border:1px solid var(--accent); border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:10.5px; font-weight:700; color:var(--accent); flex:0 0 auto;">05</span><span style="font-size:14.5px; font-weight:600; color:#222831;">技術レビュー・品質改善</span></li>
           <li style="display:flex; gap:11px; align-items:center; padding:15px 18px; border-bottom:1px solid #eef0f3;"><span aria-hidden="true" style="width:24px; height:24px; border:1px solid var(--accent); border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:10.5px; font-weight:700; color:var(--accent); flex:0 0 auto;">06</span><span style="font-size:14.5px; font-weight:600; color:#222831;">テスト・改善</span></li>
           <li style="display:flex; gap:11px; align-items:center; padding:15px 18px; border-bottom:1px solid #eef0f3;"><span aria-hidden="true" style="width:24px; height:24px; border:1px solid var(--accent); border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:10.5px; font-weight:700; color:var(--accent); flex:0 0 auto;">07</span><span style="font-size:14.5px; font-weight:600; color:#222831;">運用保守</span></li>
-          <li style="display:flex; gap:11px; align-items:center; padding:15px 18px; border-bottom:1px solid #eef0f3;"><span aria-hidden="true" style="width:24px; height:24px; background:var(--navy); border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:10.5px; font-weight:700; color:#fff; flex:0 0 auto;">08</span><span style="font-size:14.5px; font-weight:600; color:#222831;">教育・定着支援</span></li>
+          <li style="display:flex; gap:11px; align-items:center; padding:15px 18px; border-bottom:1px solid #eef0f3;"><span aria-hidden="true" style="width:24px; height:24px; border:1px solid var(--accent); border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:10.5px; font-weight:700; color:var(--accent); flex:0 0 auto;">08</span><span style="font-size:14.5px; font-weight:600; color:#222831;">教育・定着支援</span></li>
         </ol>
       </div>
     </section>
@@ -387,20 +387,18 @@ const ogDescription =
             <p style="margin:0 0 22px; font-size:14.5px; line-height:1.95; color:#454f5a;">具体的なご依頼が固まっていない段階でも構いません。技術相談、体制づくり、DX・生成AI活用の壁打ちなど、まずは情報交換からでもお気軽にご相談ください。</p>
             <div style="display:flex; flex-wrap:wrap; align-items:center; gap:16px;">
               <a href="https://forms.example.com/contact" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:7px; text-decoration:none; font-size:14.5px; font-weight:600; color:#fff; background:var(--navy); border-radius:4px; padding:12px 26px; box-shadow:0 2px 8px rgba(31,50,71,0.16); transition:background .2s ease, transform .2s ease;" class="fc-btn-primary">お問い合わせフォーム</a>
-              <a href="mailto:example@example.com" style="font-size:14px; color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(53,80,110,0.35); padding-bottom:2px;">メールで連絡する</a>
+              <a href="mailto:satoshi.ichimaru@f-circle.biz" style="font-size:14px; color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(53,80,110,0.35); padding-bottom:2px;">メールで連絡する</a>
             </div>
           </div>
           <div style="border:1px solid var(--line); border-radius:5px; background:var(--tint); overflow:hidden;">
             <div style="display:flex; gap:14px; padding:13px 16px; border-bottom:1px solid #e4e8ed;">
               <span style="flex:0 0 64px; font-size:12px; color:#838b95;">Email</span>
-              <a href="mailto:example@example.com" style="font-size:13.5px; color:#2a323b; text-decoration:none;">example@example.com</a>
+              <a href="mailto:satoshi.ichimaru@f-circle.biz" style="font-size:13.5px; color:#2a323b; text-decoration:none;">satoshi.ichimaru@f-circle.biz</a>
             </div>
             <div style="display:flex; gap:14px; padding:13px 16px;">
               <span style="flex:0 0 64px; font-size:12px; color:#838b95;">Links</span>
               <span style="display:flex; flex-wrap:wrap; gap:14px;">
-                <a href="#" target="_blank" rel="noopener noreferrer" style="font-size:13.5px; color:#3c4651; text-decoration:none; border-bottom:1px solid #cfd4da; padding-bottom:1px;">GitHub</a>
-                <a href="#" target="_blank" rel="noopener noreferrer" style="font-size:13.5px; color:#3c4651; text-decoration:none; border-bottom:1px solid #cfd4da; padding-bottom:1px;">LinkedIn</a>
-                <a href="#" target="_blank" rel="noopener noreferrer" style="font-size:13.5px; color:#3c4651; text-decoration:none; border-bottom:1px solid #cfd4da; padding-bottom:1px;">X</a>
+                <a href="https://github.com/fcircle-biz" target="_blank" rel="noopener noreferrer" style="font-size:13.5px; color:#3c4651; text-decoration:none; border-bottom:1px solid #cfd4da; padding-bottom:1px;">GitHub</a>
               </span>
             </div>
           </div>
